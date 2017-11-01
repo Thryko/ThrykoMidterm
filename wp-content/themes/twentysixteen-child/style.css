@@ -19,9 +19,11 @@
 .nav-links .post-title{
     font-size: 1em;
 }
+/*removes author information from posts*/
 .entry-footer{
     display:none;
 }
+/*changes site border width and color recursively*/
 .site *{
     border-color:#d0d0d0 !important;
     border-width:2px;
