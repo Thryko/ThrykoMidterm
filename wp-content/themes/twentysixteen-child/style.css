@@ -37,3 +37,8 @@
 .page-id-36 .site-header, .page-id-36 .entry-title{
     display:none
 }
+/*gets rid of black bars on either side of the page container to match midterm example*/
+ .page-id-36 .site{
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
