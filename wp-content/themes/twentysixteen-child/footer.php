@@ -47,7 +47,7 @@
 					 */
 					do_action( 'twentysixteen_credits' );
 				?>
-				<?php echo comicpress_copyright(); ?>
+				<?php echo wordpress_copyright(); ?>
 				
 			</div><!-- .site-info -->
 		</footer><!-- .site-footer -->

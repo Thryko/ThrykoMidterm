@@ -11,7 +11,7 @@ function my_theme_enqueue_styles() {
         wp_get_theme()->get('Version')
     );
 }
-function comicpress_copyright() {
+function wordpress_copyright() {
 global $wpdb;
 $copyright_dates = $wpdb->get_results("
 SELECT
