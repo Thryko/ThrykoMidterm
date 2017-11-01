@@ -1,0 +1,28 @@
+/*
+ Theme Name:   Twenty Sixteen Child
+ Theme URI:    https://github.com/Thryko/ThrykoMidterm
+ Description:  Twenty Sixteen Child Theme
+ Author:       Tyler Hryko
+ Author URI:   Thryko.imgd.ca
+ Template:     twentysixteen
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  twenty-sixteen-child
+*/
+/*reduce blog post titles to 1.5em*/
+.entry-title{
+    font-size: 1.5em;
+}
+/*reduce previous and next titles to 1em*/
+.nav-links .post-title{
+    font-size: 1em;
+}
+.entry-footer{
+    display:none;
+}
+.site *{
+    border-color:#d0d0d0 !important;
+    border-width:2px;
+}
